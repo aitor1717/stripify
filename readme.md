@@ -1,4 +1,4 @@
-Stripify: Spotify Wrapped Enhanced
+Stripify
 
 Stripify is a music data analysis project that transforms a user's Spotify data into a sophisticated "mega-wrap" and fresh music recommendations using GPT. It extracts structured insights from listening history and wrapped metrics, builds a local database, runs custom SQL queries, and generates recommendations designed to surface hidden gems.
 
