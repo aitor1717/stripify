@@ -59,6 +59,11 @@ These outputs are formatted and ready to be plugged into any visualization layer
 
 ~ Results:
 
-    Preliminary:
-    The sample Sporify dataset used comes from an account that is seldom used. The wrap results are roughly accurate. From the recommended tracks,
-    accross two iterations, three were already known and three were quite good. One track was mismatched from their artist.
+    Sample 1:
+    The dataset originates from a rarely used Spotify account. The Wrapped results aligned reasonably well with the user’s known preferences. Across two recommendation iterations, three tracks were already familiar and three were rated as notably good. One track was 
+    incorrectly attributed to its artist, highlighting a minor metadata mismatch.
+
+    Sample 2:
+    This dataset comes from a heavy user. The overall recommendation quality was coherent but underwhelming. Upon review, the user revealed they had not actively used the account during most of the last year, likely explaining the 
+    reduced performance. While the Wrapped summary ranged from mediocre to fairly accurate, the recommended tracks were all previously heard and moderately liked; no undiscovered favorites emerged. However, one recommendation resurfaced a past favorite that had once led 
+    to heavy listening. The user noted a preference for filtering out mainstream Spotify tracks to better surface hidden gems.
