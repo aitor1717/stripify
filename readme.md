@@ -72,5 +72,5 @@ These outputs are formatted and ready to be plugged into any visualization layer
     The final dataset comes from an older heavy user who frequenty listens to extensive playlists made by friends. The wrapped results were coherent. The forgotten One-Week Obsessions results were quite good. The recommendations presented a bug; they remained the same
     as in sample #2. The user didn't care for recommendations either way as they interact with the app via playlists as radio stations.
 
-    The overall results wqere mediocre but I am actually satisfied with this project as it's my first incursion into LLM API calls. I closed it and left it as is to explore what became a small local modular self-building LLM agent.
-    You can see the WIP [here](https://pages.github.com/aitor1717/pau_pau)
+The overall results were mediocre but I'm satisfied with this project as it's my first incursion into LLM API calls. I closed it and left it as is to explore what became a small local modular self-building LLM agent.
+You can see the WIP [here](https://pages.github.com/aitor1717/pau_pau)
