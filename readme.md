@@ -59,11 +59,18 @@ These outputs are formatted and ready to be plugged into any visualization layer
 
 ~ Results:
 
-    Sample 1:
+    Sample #1:
     The dataset originates from a rarely used Spotify account. The Wrapped results aligned reasonably well with the user’s known preferences. Across two recommendation iterations, three tracks were already familiar and three were rated as notably good. One track was 
     incorrectly attributed to its artist, highlighting a minor metadata mismatch.
 
-    Sample 2:
+    Sample #2:
     This dataset comes from a heavy user. The overall recommendation quality was coherent but underwhelming. Upon review, the user revealed they had not actively used the account during most of the last year, likely explaining the 
     reduced performance. While the Wrapped summary ranged from mediocre to fairly accurate, the recommended tracks were all previously heard and moderately liked; no undiscovered favorites emerged. However, one recommendation resurfaced a past favorite that had once led 
     to heavy listening. The user noted a preference for filtering out mainstream Spotify tracks to better surface hidden gems.
+
+    Sample #3:
+    The final dataset comes from an older heavy user who frequenty listens to extensive playlists made by friends. The wrapped results were coherent. The forgotten One-Week Obsessions results were quite good. The recommendations presented a bug; they remained the same
+    as in sample #2. The user didn't care for recommendations either way as they interact with the app via playlists as radio stations.
+
+    The overall results wqere mediocre but I am actually satisfied with this project as it's my first incursion into LLM API calls. I closed it and left it as is to explore what became a small local modular self-building LLM agent.
+    You can see the WIP [here](https://pages.github.com/aitor1717/pau_pau)
