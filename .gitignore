@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+spotify_history.db
+fresh_tracks_raw.csv
+StreamingHistory_music_0.json
+Wrapped2024.json
+mega_wrapped.csv
+fresh_tracks.csv
