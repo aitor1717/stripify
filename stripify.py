@@ -37,6 +37,7 @@ from io import StringIO
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 from openai import OpenAI
 
 # ----------------------------- Configuration -----------------------------
@@ -246,6 +247,7 @@ def correct_recommendations(client: OpenAI, recommendations_df: pd.DataFrame, wr
 
 
 def main():
+    load_dotenv(BASE_DIR / ".env")
     print("Stripify: Spotify Wrapped Enhanced\n")
 
     if not HISTORY_JSON.exists():

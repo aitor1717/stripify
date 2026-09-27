@@ -4,6 +4,8 @@
 
 # Stripify
 
+[![tests](https://github.com/aitor1717/stripify/actions/workflows/tests.yml/badge.svg)](https://github.com/aitor1717/stripify/actions/workflows/tests.yml)
+
 Stripify turns a Spotify data export into a mega-wrap and a set of fresh music recommendations from an LLM. It extracts structured insights from listening history and official Wrapped metrics, builds a local database, runs a handful of purpose-built SQL queries, and calls an LLM to surface hidden-gem tracks.
 
 ## How it works
@@ -52,6 +54,15 @@ This produces:
 - `fresh_tracks.csv`: Personalized new music suggestions, checked against known tracks and artists
 
 These are plain CSVs, ready to be plugged into any visualization layer or dashboard (not included in this project).
+
+## Testing
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+The tests run against a small synthetic listening history and a stubbed OpenAI client, so they need no Spotify export, no API key, and no network access. They also run on every push through GitHub Actions.
 
 ## License
 
